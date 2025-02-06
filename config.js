@@ -3,11 +3,11 @@
 
 const config = {
   Token: "",
-  Default_Prefix: "",
+  Default_Prefix: ",",
   Color: "",
-  Welcome_Images: "",
-  GoodBye_Images: "",
-  Support: "",
+  Welcome_Images: "Welcome {username} {avatar}",
+  GoodBye_Images: "fuck you for leaving {username} {avatar}",
+  Support: "dickmedown.io",
 };
 
 module.exports = config;
